@@ -19,6 +19,11 @@ docker compose up -d
 docker compose exec pearson_test_backend /bin/bash 
 cp .env.example .env
 ```
+## How to use
+You can find api docs with example responses in the following url  
+[https://documenter.getpostman.com/view/403705/2sB2cYcLP6](https://documenter.getpostman.com/view/403705/2sB2cYcLP6)
+
+
 
 ## Scalability: Adding New Subjects
 The project is built using the Strategy Design Pattern, making it easy to support new subjects and custom scoring rules.
